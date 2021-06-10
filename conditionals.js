@@ -10,6 +10,7 @@ if (cold) {
 }
 
 console.log("Now you're ready to go outside!");
+//started diff ex below
 
 const temperature = 16;
 
@@ -22,3 +23,21 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+// start diff example below all on logical ops
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+//diff ex || or log op
+
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+//diff example ! logic op
+
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
