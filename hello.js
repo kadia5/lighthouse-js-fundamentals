@@ -1,6 +1,4 @@
-const sayHello  = function (0) {
-  console.log("Hello, world");
+const sayHello  = function (name) {
+  console.log("Hello, " + name);
 }
-
-sayHello();
-
+sayHello("Caliban");
